@@ -84,7 +84,7 @@ function hestiachild_testsection_customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'hestiachild_youtube_title',
 		array(
-			'label'		=> __('Line above the video','hestia-child'),
+			'label'		=> __('Text Above Video','hestia-child'),
 			'section'	=> 'hestiachild_youtube_options',
 			'type'		=> 'text'
 		)
