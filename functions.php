@@ -661,7 +661,7 @@ function hestiachild_features_section_3_customize_register ( $wp_customize ) {
 	
 		}
 	}
-	add_action( 'hestia_after_features_section_hook', 'features_section_3')
+	add_action( 'hestia_after_testimonials_section_hook', 'features_section_3')
 	
 	
 
